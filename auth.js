@@ -1,13 +1,15 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 import { getAuth, RecaptchaVerifier, signInWithPhoneNumber } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyAX6iBehOjRGDbyE3HWUWXUsdIREZcICwM",
   authDomain: "smartai-private.firebaseapp.com",
   projectId: "smartai-private",
-  storageBucket: "smartai-private.appspot.com",
-  messagingSenderId: "52930428329",
-  appId: "1:52930428329:web:478d1a15e4dbfa38c3078"
+  storageBucket: "smartai-private.firebasestorage.app",
+  messagingSenderId: "52903428329",
+  appId: "1:52903428329:web:478d1a15e4dbfaa38c3078",
+  measurementId: "G-FBLR8XVZTB"
 };
 
 const app = initializeApp(firebaseConfig);
